@@ -22,7 +22,7 @@ function nucleoJuego(user, ia)
           {
                resultado = 0;
           }
-          if(ia == tijera)
+          else
           {
                resultado = 1;
           }
@@ -33,7 +33,7 @@ function nucleoJuego(user, ia)
           {
                resultado = 1;
           }
-          if(ia == tijera)
+          else
           {
                resultado = 0;
           }
@@ -44,7 +44,7 @@ function nucleoJuego(user, ia)
           {
                resultado = 1;
           }
-          if(ia == piedra)
+          else
           {
                resultado = 0;
           }
